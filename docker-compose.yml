@@ -9,11 +9,11 @@ services:
     links: 
       - db:mysql
     environment:
-      WORDPRESS_DB_HOST: mysql
+      RAZZLE_WORDPRESS_DB_HOST: mysql
       MYSQL_PORT_3306_TCP: 3307
-      WORDPRESS_DB_USER: admin
-      WORDPRESS_DB_PASSWORD: f3P%f!dN&u*m
-      WORDPRESS_DB_NAME: wordpress_fep
+      RAZZLE_WORDPRESS_DB_USER: admin
+      RAZZLE_WORDPRESS_DB_PASSWORD: f3P%f!dN&u*m
+      RAZZLE_WORDPRESS_DB_NAME: wordpress_fep
       VIRTUAL_HOST: fep-portal.dev
       VIRTUAL_PORT: 80
     volumes:
