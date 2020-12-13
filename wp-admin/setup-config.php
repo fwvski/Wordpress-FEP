@@ -290,7 +290,7 @@ switch ( $step ) {
 
 		/**
 		 *
-		 * DB CONFIG
+		 * DB CONFIGURATION
 		 */
 		define( 'DB_NAME', getenv('WORDPRESS_DB_NAME') );
 		define( 'DB_USER', getenv('WORDPRESS_DB_USER') );
