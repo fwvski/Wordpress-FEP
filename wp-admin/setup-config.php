@@ -288,10 +288,9 @@ switch ( $step ) {
 			wp_die( __( '<strong>Error</strong>: "Table Prefix" can only contain numbers, letters, and underscores.' ) . $tryagain_link );
 		}
 
-		// Test the DB connection.
-		/**#@+
+		/**
 		 *
-		 * @ignore
+		 * DB CONFIG
 		 */
 		define( 'DB_NAME', getenv('WORDPRESS_DB_NAME') );
 		define( 'DB_USER', getenv('WORDPRESS_DB_USER') );
