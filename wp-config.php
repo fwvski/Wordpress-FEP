@@ -20,16 +20,16 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', getenv('RAZZLE_WORDPRESS_DB_NAME') );
+define( 'DB_NAME', getenv('wordpress_fep') );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', getenv('RAZZLE_WORDPRESS_DB_USER') );
+define( 'DB_USER', getenv('root') );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD',  getenv('RAZZLE_WORDPRESS_DB_PASSWORD') );
+define( 'DB_PASSWORD',  getenv('7WAE1#Ofne1') );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', getenv('RAZZLE_WORDPRESS_DB_HOST') );
+define( 'DB_HOST', getenv('198.50.140.170') );
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8' );
